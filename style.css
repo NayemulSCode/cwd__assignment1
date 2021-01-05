@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+nav a{
+    float: right;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    font-weight: 500;
+}
+.container{
+ margin-right: 100px
+
+}
+/* head section */
+.headSection{
+    height: 500px;
+    width: 100%;
+    margin: 30px 30px;
+    display: flex;
+}
+.headSection__left{
+    width: 35%;
+    margin-right: 5rem;
+
+}
+.headSection__left h1{
+    text-transform: uppercase;
+    color: #363958;
+    font-size: 50px;
+}
+.headSection__left .name{
+    color: #FF8367;
+}
+.headSection__left p{
+    font-size: 16px;
+    margin-bottom: 4rem;
+}
+
+.headSection__right{
+    width: 35%;
+    margin-left: 20px;
+}
+.headSection__right img{
+    width: 100%;
+    padding: 10px;
+}
+.header__button{
+    text-decoration: none;
+    background-color: #8f6b28;
+    background-image: linear-gradient(45deg, #ffa702,#8f6b28 );
+    padding: 12px 25px;
+    border-radius: 8px;
+    color: white;
+}
+.headSection__left2{
+    width: 35%;
+}
+.headSection__left2 img{
+    width: 100%;
+    padding: 10px;
+}
+.headSection__right2{
+    width: 35%;
+    margin-left: 10rem;
+}
+.headSection__right2 p{
+    margin-bottom: 4rem;
+}
+/* working project */
+.working{
+    background-color: #E5E5E5;
+    height: 600px;
+}
+.working__title h1{
+    text-align: center;
+    padding: 50px;
+    text-transform: uppercase;
+}
+.working__title h1 span{
+    color: orange;
+}
+
+.workingp{
+    width: 30%;
+    float: left;
+    box-shadow: 2px 2px  8px gray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px 8px;
+    background-color: #FFFFFF;
+    
+}
+.working .working__img{
+    width: 100%;
+}
+.working__detail{
+    /* object-fit: contain; */
+    padding: 5px;
+    margin: 5px;
+}
+.working__detail .title{
+    color: #363958;
+}
+.working__detail p{
+    color: #6C6C6c;
+    font-size: 16px;
+}
+/* add section */
+/* .addsection{
+    height: 500px;
+} */
+.addsection{
+ background-image: url(shapes/Group_33094_1.png);
+background-position-y: center;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: contain;
+ height: 150px;
+ margin: 150px;
+ position: relative;
+}
+.bgimg{
+    text-align: center;
+    padding-top: 45px;
+}
+.bgimg span {
+    margin-left: -11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    margin-right: 226px;
+}
+.chat__button{
+    text-decoration: none;
+    background-color: #8f6b28;
+    background-image: linear-gradient(45deg, #ffa702,#8f6b28 );
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+}
+/* footer */
+.footer{
+    height: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.fo__detail h5{
+    color: #6C6C6c;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.fo__detail h4{
+    color: #363958;
+}
+.fo__img img{
+    width: 3%;
+    padding: 5px;
+}
